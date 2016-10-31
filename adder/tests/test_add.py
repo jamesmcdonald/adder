@@ -18,6 +18,3 @@ class TestAdd(TestCase):
     def test_mixed(self):
         with self.assertRaises(TypeError):
             adder.add("toast", 3)
-
-    def test_break(self):
-        self.assertEqual(False, True)
