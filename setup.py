@@ -10,5 +10,5 @@ setup(name='adder',
         packages=['adder'],
         zip_safe=False,
         test_suite='nose.collector',
-        setup_requires=['nose', 'nosexcover'],
+        setup_requires=['nose', 'nosexcover', 'setuptools-lint'],
 )
