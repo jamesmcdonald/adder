@@ -1,4 +1,4 @@
-"""adder is an amazing module which adds things"""
+"""A mighty module to add things to each other"""
 
 def add(first, second):
     """The power of add is that it adds its arguments"""
