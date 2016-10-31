@@ -7,7 +7,7 @@ class TestAdd(TestCase):
     """Test the add function"""
     def test_int(self):
         """Test adding integers"""
-        result = adder.add(3,4)
+        result = adder.add(3, 4)
         self.assertEqual(result, 7)
 
     def test_float(self):
