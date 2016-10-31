@@ -8,4 +8,7 @@ setup(name='adder',
         author_email='james@jamesmcdonald.com',
         license='MIT',
         packages=['adder'],
-        zip_safe=False)
+        zip_safe=False,
+        test_suite='nose2.collector.collector',
+        tests_require=['nose2'],
+)
