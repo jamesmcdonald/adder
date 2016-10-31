@@ -24,3 +24,10 @@ class TestAdd(TestCase):
         """Test that mixing types causes a TypeError"""
         with self.assertRaises(TypeError):
             adder.add("toast", 3)
+
+class TestSubtract(TestCase):
+    """Test the subtract function"""
+    def test_sub(self):
+        """Test subtracting integers"""
+        result = adder.subtract(4,3)
+        self.assertEqual(result, 1)
