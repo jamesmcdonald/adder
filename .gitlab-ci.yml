@@ -1,5 +1,9 @@
-image: python:2.7
+python2:
+  image: python:2
+  script:
+    - python setup.py nosetests
 
-test:
+python3:
+  image: python:3
   script:
     - python setup.py nosetests
