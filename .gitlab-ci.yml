@@ -1,9 +1,9 @@
 python2:
   image: python:2
   script:
-    - python setup.py nosetests
+    - python setup.py test
 
 python3:
   image: python:3
   script:
-    - python setup.py nosetests
+    - python setup.py test
