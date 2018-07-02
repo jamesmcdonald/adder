@@ -6,4 +6,4 @@ def add(first, second):
 
 def subtract(first, second):
     """Subtraction is a kind of adding"""
-    return first - second
+    return add(first, -second)

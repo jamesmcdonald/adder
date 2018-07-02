@@ -10,6 +10,6 @@ setup(name='adder',
       license='MIT',
       packages=['adder'],
       zip_safe=False,
-      test_suite='nose.collector',
-      setup_requires=['nose', 'nosexcover', 'setuptools-lint'],
+      test_suite='nose2.collector.collector',
+      setup_requires=['nose2', 'setuptools-lint'],
      )
